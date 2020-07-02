@@ -119,7 +119,7 @@ namespace School_Project
                     MarksSet marksSet = listViewMarks.SelectedItems[0].Tag as MarksSet;
                     Program.abc.MarksSet.Remove(marksSet);
                     Program.abc.SaveChanges();
-                    ShowStudents();
+                    ShowMarks();
                 }
                 comboBoxStudent.SelectedItem = null;
                 comboBoxSubject.SelectedItem = null;
